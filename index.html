@@ -9,12 +9,32 @@
 </head>
 
 <body>
+
+    <script>
+            setInterval(function() {
+
+                let contentArray = [
+                    `!!!IMPORTANT!!!\nYOUR COMPUTER MAY BE INFECTED! COME TO COACHELLA FOR SUPPORT!`,
+                    `WOULD YOU LIKE TO MEET CELEBRITIES FROM ALL OVER THE WORLD?!?\nCOME TO COACHELLA!`,
+                    `YOUR DEVICE HAS BEEN LOCKED!!\nCOME TO COACHELLA FOR HELP UNLOCKING IT!`,
+                    `COACHELLA:\nWHERE ALL YOUR DREAMS COME TRUE!`,
+                    `I ran out of ideas for pop up ads, just come to Coachella.`,
+                    `All your friends are already at Coachella,\n\nWhere are you?`
+                ];
+
+                alert(contentArray[Math.floor(6 * Math.random())])
+
+            }, 3000);
+
+        function alertFunction(content) {
+          alert(content);
+        }
+        </script>
+
     <div>
-        <h1>COACHELLA</h1> <!--REORGANIZE TO MAKE THIS A HEADER, MAKE SOME EXTRA PAGES FOR TICKET PRICING AND ALL.-->
-        <!-- MAKE COACHELLA POP UP ADS!!!1! -->
-        <p>THE BEST MUSIC FOR THE BEST PEOPLE</p>
-        <img src="./images/rave.jpg">
+        <img src="./images/google.png">
     </div>
+
 </body>
 
-</html> 
+</html>
