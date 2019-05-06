@@ -2,67 +2,71 @@ html {
     background: white;
 }
 
-#Navbar {
-    position: top;
-    top: 0;
-    width: 100%;
+@font-face {
+    font-family: Open;
+    src: url(Fonts/OpenSans-Regular.ttf);
+}
+
+ul {
+    list-style: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(51, 51, 51);
+    padding-top: 6px;
+    /*13 px split*/
+    padding-left: 17px;
 }
 
-#Home,
-#Why,
-#Dates {
-  float: left;
+#About {
+    display: inline;
+    font-family: Open;
+    padding-top: 7px;
+    font-size: 12px;
+    color: rgb(31, 31, 31);
 }
 
-#Home a,
-#Why a,
-#Dates a {
+#Store {
+    display: inline;
+    font-family: Open;
+    padding-top: 7px;
+    font-size: 12px;
+    color: rgb(31, 31, 31);
+    padding-left: 17px;
+}
+
+#Gmail {
+    display: inline;
+    font-family: Open;
+    padding-top: 7px;
+    font-size: 12px;
+    color: rgb(31, 31, 31);
+    padding-right: 17px;
+}
+
+#Images {
+    display: inline;
+    font-family: Open;
+    padding-top: 7px;
+    font-size: 12px;
+    color: rgb(31, 31, 31);
+    padding-right: 17px;
+}
+
+#Buttons {
+    display: inline;
+    font-family: Open;
+    padding-top: 7px;
+    font-size: 12px;
+    color: rgb(31, 31, 31);
+    padding-right: 17px;
+}
+
+#Pfp {
+    color: rgb(31, 31, 31);
+    padding-right: 17px;
+}
+
+#Google {
     display: block;
-    color: rgb(242, 242, 242);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: Helvetica;
-}
-
-#Home a:hover,
-#Why a:hover,
-#Dates a:hover {
-    background-color: rgb(221, 221, 221);
-    color: black;
-}
-
-#Home a.active,
-#Why a.active,
-#Dates a.active {
-    background-color: rgb(187, 187, 187);
-    color: white;
-}
-
-p {
-    color: rgb(0, 0, 0);
-    font-family: Helvetica;
-    position: absolute;
-    z-index: 2;
-    padding-left: 50%;
-}
-
-h1 {
-    color: rgb(0, 0, 0);
-    font-family: Helvetica;
-    font-size: 500%;
-    left: 35%;
-    position: absolute;
-    z-index: 1;
-}
-
-img {
-    width: 100%;
-    padding: 0%;
-    position: relative;
-    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
