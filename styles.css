@@ -64,9 +64,39 @@ ul {
     padding-right: 17px;
 }
 
+.google {
+    position: relative;          /* where the next element will be automatically positioned */
+    display: inline-block;       /* causes element width to shrink to fit content */
+    left: 50%;                   /* moves left side of image/element to center of parent element */
+    transform: translate(-17%);  /* centers image/element on "left: 50%" position */
+}
+
 #Google {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 30%;
+}
+
+#GSearch {
+    display: block;
+    width: 30%;
+    margin-left: 33%;
+}
+
+.buttons {
+    position: relative;
+    display: inline-block;
+    left: 39%;
+    padding: 1%;
+}
+
+.button {
+    border-radius: 6px;
+    background-color: rgb(238, 238, 238);
+    border: 1px rgb(221, 221, 221);
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

@@ -19,11 +19,18 @@
         <li id="Gmail" style="float:right">Gmail</li>
     </ul>
 
-    <div>
+    <br>
+    <br>
+    <div class="google">
         <img id="Google" src="images/google.jpg">
     </div>
+    <img id="GSearch" src="images/GSearch.png">
+    <div class="buttons">
+        <button class="button" onclick="var myWindow = window.open(``, `MsgWindow`, `width=200,height=100`);myWindow.document.write(`HAHA! I WAS HERE`);">Google Search</button>
+        <button class="button">I'm Feeling Lucky</button>
+    </div>
 
-    <!--<script>
+    <script>
         setInterval(function () {
 
             let popupArray = [];
@@ -37,8 +44,6 @@
                 `All your friends are already at Coachella,\n\nWhere are you?`
             ];
 
-            myFunction(contentArray[Math.floor(6 * Math.random())])
-
             alert(contentArray[Math.floor(6 * Math.random())])
 
         }, 3000);
@@ -51,7 +56,7 @@
             var myWindow = window.open("", "MsgWindow", "width=200,height=100");
             myWindow.document.write(content);
         }
-    </script>-->
+    </script>
 
     <!--<div>
         <img src="./images/google.png">
