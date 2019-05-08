@@ -26,11 +26,17 @@
     </div>
     <img id="GSearch" src="images/GSearch.png">
     <div class="buttons">
-        <button class="button" onclick="var myWindow = window.open(``, `MsgWindow`, `width=200,height=100`);myWindow.document.write(`HAHA! I WAS HERE`);">Google Search</button>
+        <button class="button" onclick="newWindow(`<img src='images/ADCAUSEGAY.png' width=100%>`)">Google Search</button>
         <button class="button">I'm Feeling Lucky</button>
     </div>
 
     <script>
+
+        function newWindow(content) {
+            var myWindow = window.open(``, `MsgWindow`, `width=600,height=500`);
+            myWindow.document.write(content);
+        }
+
         setInterval(function () {
 
             let popupArray = [];
